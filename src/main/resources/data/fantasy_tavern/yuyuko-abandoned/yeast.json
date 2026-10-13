@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "fantasy_tavern:wheet_flour"
+    },
+    "X": {
+      "item": "minecraft:sugar"
+    },
+    "Y": {
+      "item": "minecraft:potion"
+    }
+  },
+  "pattern": [
+    "# #",
+    "XYX",
+    "   "
+  ],
+  "result": {
+    "count": 4,
+    "item": "fantasy_tavern:yeast"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,55 @@
+{
+  "itemGroup.fantasy_tavern_tab": "森罗酒馆:秘封",
+  "itemGroup.fantasy_tavern_tab_other": "秘封酒馆:其他",
+  "item.fantasy_tavern.wheet_flour": "小麦粉",
+  "item.fantasy_tavern.yeast": "酵母",
+  "item.fantasy_tavern.wine_glass": "酒杯",
+
+  "item.fantasy_tavern.enchanted_berry": "附魔甜浆果",
+  "item.fantasy_tavern.lucky_berry": "幸运甜浆果",
+
+  "block.fantasy_tavern.berry_juice": "浆果汁",
+  "block.fantasy_tavern.berry_juice_100": "100%浆果汁",
+  "block.fantasy_tavern.enchant_berry_juice": "100%附魔浆果汁",
+  "block.fantasy_tavern.komeiji_koishi": "古茗地恋",
+  "block.fantasy_tavern.cocktail": "十四夜",
+  "block.fantasy_tavern.nordic_mist_talk": "北欧物语",
+  "block.fantasy_tavern.nordic_legends": "北欧传说",
+  "block.fantasy_tavern.heimdall_brew": "海姆达尔之酿",
+
+  "block.fantasy_tavern.illusionary_night": "幻视之夜",
+  "block.fantasy_tavern.dream_of_huaxu": "华胥之梦",
+  "block.fantasy_tavern.the_purest_sky_and_sea": "最澄澈的空与海",
+  "block.fantasy_tavern.celestial_wizardr": "太空魔术",
+  "block.fantasy_tavern.bell_of_avici": "无间之钟",
+  "block.fantasy_tavern.emotional_skyscraper": "感情的摩天轮",
+  "block.fantasy_tavern.wind_of_agartha": "阿加尔塔之风",
+  "block.fantasy_tavern.the_sea_that_reflects_one_s_home_planet": "故乡之星倒映之海",
+  "block.fantasy_tavern.the_lost_emotion": "亡失感情",
+  "block.fantasy_tavern.illusionary_white_traveler": "幻想的白色旅人",
+  "block.fantasy_tavern.mugen_noh": "梦幻能",
+  "block.fantasy_tavern.entrust_the_world_to_idols": "寄世界于偶像",
+
+  "block.fantasy_tavern.sara_eden_fumo": "fumo(Sara_Eden)",
+  "block.fantasy_tavern.lex_eden_fumo": "fumo(Lex_Eden)",
+  "block.fantasy_tavern.tirez_eden_fumo": "fumo(Tirez_Eden)",
+  "block.fantasy_tavern.hysler_fumo": "fumo(Hysler)",
+  "block.fantasy_tavern.hana_fumo": "fumo(hanatanizhiriuku)",
+  "block.fantasy_tavern.water_fumo": "fumo(Secluded_Water)",
+
+
+  "item.fantasy_tavern.margaret.effect.empty": "玛格丽特",
+  "item.fantasy_tavern.manhattan.effect.empty": "曼哈顿",
+
+  "item.fantasy_tavern.tequila.effect.empty": "龙舌兰",
+  "item.fantasy_tavern.whiskey.effect.empty": "威士忌",
+  "item.fantasy_tavern.brandy.effect.empty": "白兰地",
+
+  "item.fantasy_tavern.music_kid_festival": "音乐唱片",
+  "item.fantasy_tavern.music_kid_festival.desc": "童祭　～ Innocent Treasures",
+  "item.fantasy_tavern.music_dics_kid_festival": "正在播放“童祭　～ Innocent Treasures",
+
+  "item.fantasy_tavern.music_boys_and_girls_of_the_age_of_science": "音乐唱片",
+  "item.fantasy_tavern.music_boys_and_girls_of_the_age_of_science.desc": "科学世纪的少年少女",
+  "item.fantasy_tavern.music_dics_boys_and_girls_of_the_age_of_science": "正在播放“科学世纪的少年少女"
+}

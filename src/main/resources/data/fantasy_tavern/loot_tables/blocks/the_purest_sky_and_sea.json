@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:the_purest_sky_and_sea"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "fantasy_tavern:blocks/the_purest_sky_and_sea"
+}

@@ -1,0 +1,31 @@
+{
+  "item": "fantasy_tavern:enchant_berry_juice",
+  "effects": [
+    [
+      {
+        "effect": "minecraft:luck",
+        "duration": 600,
+        "amplifier": 2,
+        "probability": 1.0
+      },
+      {
+        "effect": "minecraft:health_boost",
+        "duration": 300,
+        "amplifier": 4,
+        "probability": 1.0
+      },
+      {
+        "effect": "minecraft:regeneration",
+        "duration": 90,
+        "amplifier": 3,
+        "probability": 1.0
+      },
+      {
+        "effect": "minecraft:instant_health",
+        "duration": 1,
+        "amplifier": 5,
+        "probability": 1.0
+      }
+    ]
+  ]
+}

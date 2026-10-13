@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1150" width="900" height="1150" font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif">
+  <defs>
+    <pattern id="speck" width="18" height="18" patternUnits="userSpaceOnUse">
+      <rect width="18" height="18" fill="#2C3A5C"/>
+      <rect x="3" y="4" width="5" height="5" rx="2.5" fill="#93BDE4"/>
+      <rect x="12" y="11" width="4" height="4" rx="2" fill="#93BDE4"/>
+    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF4FB"/>
+      <stop offset="1" stop-color="#F8FBFE"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="1150" fill="url(#bg)"/>
+  <line x1="500" y1="60" x2="500" y2="1090" stroke="#D5E3EF" stroke-width="2"/>
+
+  <!-- ============ 立绘 ============ -->
+  <g stroke="#2B2F45" stroke-width="2.5" stroke-linejoin="round">
+
+    <!-- 后发 -->
+    <path d="M212 214 C198 306 214 372 300 384 C386 372 402 306 388 214 Z" fill="#9BD5E4"/>
+
+    <!-- 兽耳 -->
+    <path d="M226 132 C219 76 248 50 267 50 C287 50 301 76 297 128 Z" fill="#FFFFFF"/>
+    <path d="M303 128 C299 76 313 50 333 50 C352 50 381 76 374 132 Z" fill="#FFFFFF"/>
+    <path d="M240 118 C236 88 253 70 266 70 C279 70 288 88 286 116 Z" fill="#DCEFF6" stroke="none"/>
+    <path d="M314 116 C312 88 321 70 334 70 C347 70 364 88 360 118 Z" fill="#DCEFF6" stroke="none"/>
+
+    <!-- 头 -->
+    <ellipse cx="300" cy="202" rx="80" ry="90" fill="#F7E7DC"/>
+
+    <!-- 侧发 -->
+    <path d="M222 176 C202 240 200 306 208 366 C212 398 226 418 238 422 C246 386 234 322 240 250 Z" fill="#C7EAF2"/>
+    <path d="M378 176 C398 240 400 306 392 366 C388 398 374 418 362 422 C354 386 366 322 360 250 Z" fill="#C7EAF2"/>
+
+    <!-- 刘海 -->
+    <path d="M220 202 C214 120 250 94 300 94 C350 94 386 120 380 202 C374 172 370 160 364 150 C352 170 336 174 328 154 C316 176 298 178 290 152 C280 174 262 176 252 154 C244 166 226 170 220 202 Z" fill="#C7EAF2"/>
+    <path d="M286 96 C310 96 332 104 348 118 C330 112 306 110 288 112 Z" fill="#E6F8FB" stroke="none"/>
+
+    <!-- 眼睛 -->
+    <rect x="250" y="190" width="20" height="26" rx="9" fill="#8FCF7A" stroke="none"/>
+    <rect x="330" y="190" width="20" height="26" rx="9" fill="#8FCF7A" stroke="none"/>
+    <rect x="256" y="196" width="7" height="8" rx="3.5" fill="#F4FFF0" stroke="none"/>
+    <rect x="336" y="196" width="7" height="8" rx="3.5" fill="#F4FFF0" stroke="none"/>
+    <rect x="262" y="208" width="6" height="6" rx="3" fill="#5FA84F" stroke="none"/>
+    <rect x="342" y="208" width="6" height="6" rx="3" fill="#5FA84F" stroke="none"/>
+
+    <!-- 腮红 / 嘴 -->
+    <ellipse cx="242" cy="232" rx="16" ry="9" fill="#F3B9B0" stroke="none" opacity="0.7"/>
+    <ellipse cx="358" cy="232" rx="16" ry="9" fill="#F3B9B0" stroke="none" opacity="0.7"/>
+    <path d="M292 240 C297 247 303 247 308 240" fill="none" stroke="#C98A8A" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- 脖子 + 项圈 -->
+    <rect x="280" y="266" width="40" height="34" fill="#E8CDBE"/>
+    <rect x="272" y="282" width="56" height="16" rx="6" fill="#7B4FC9"/>
+
+    <!-- 躯干（连衣裙） -->
+    <path d="M240 298 L360 298 L374 500 L226 500 Z" fill="#A9C7EA"/>
+    <rect x="252" y="298" width="96" height="28" rx="8" fill="#3E4E6B"/>
+    <path d="M286 326 L314 326 L318 500 L282 500 Z" fill="#4E6BA8" opacity="0.75"/>
+    <path d="M240 298 L262 298 L258 500 L226 500 Z" fill="#FFFFFF" opacity="0.25"/>
+
+    <!-- 手臂 + 手 -->
+    <rect x="204" y="314" width="32" height="200" rx="16" fill="#F7E7DC"/>
+    <rect x="364" y="314" width="32" height="200" rx="16" fill="#F7E7DC"/>
+    <circle cx="220" cy="524" r="17" fill="#F7E7DC"/>
+    <circle cx="380" cy="524" r="17" fill="#F7E7DC"/>
+
+    <!-- 肩甲 -->
+    <path d="M240 300 C216 308 206 332 210 360 C232 366 250 352 252 328 Z" fill="#3E4E6B"/>
+    <path d="M360 300 C384 308 394 332 390 360 C368 366 350 352 348 328 Z" fill="#3E4E6B"/>
+
+    <!-- 腰带 + 裙 -->
+    <rect x="228" y="482" width="144" height="18" rx="6" fill="#FFFFFF"/>
+    <path d="M226 498 L374 498 L394 578 L206 578 Z" fill="#CDC0EC"/>
+    <path d="M232 498 L368 498 L382 548 L218 548 Z" fill="#E4DCF6"/>
+    <path d="M352 498 L374 498 L394 578 L370 578 Z" fill="#A9E3A2"/>
+    <rect x="206" y="566" width="188" height="14" rx="5" fill="#FFFFFF"/>
+
+    <!-- 腿 -->
+    <rect x="238" y="576" width="56" height="60" fill="#F7E7DC"/>
+    <rect x="306" y="576" width="56" height="60" fill="#F7E7DC"/>
+    <rect x="234" y="626" width="62" height="20" rx="6" fill="#E6F1FA"/>
+    <rect x="304" y="626" width="62" height="20" rx="6" fill="#E6F1FA"/>
+
+    <!-- 斑点袜靴 -->
+    <rect x="234" y="644" width="62" height="330" rx="10" fill="url(#speck)"/>
+    <rect x="304" y="644" width="62" height="330" rx="10" fill="url(#speck)"/>
+    <rect x="230" y="946" width="70" height="34" rx="8" fill="#1F2A44"/>
+    <rect x="300" y="946" width="70" height="34" rx="8" fill="#1F2A44"/>
+  </g>
+
+  <!-- ============ 色板 ============ -->
+  <text x="536" y="86" font-size="27" font-weight="700" fill="#22304A">人物形象参考图</text>
+  <text x="536" y="116" font-size="14" fill="#6A7A90">由早期 Minecraft 皮肤还原的设定稿（配色 / 特征）</text>
+
+  <g font-size="15">
+    <!-- 皮肤 -->
+    <rect x="536" y="146" width="46" height="46" rx="9" fill="#F7E7DC" stroke="#C9D6E2"/>
+    <text x="596" y="167" fill="#22304A">皮肤 · 奶油白</text>
+    <text x="596" y="187" fill="#8A99AB" font-size="13">#F7E7DC　阴影 #E8CDBE</text>
+    <!-- 头发 -->
+    <rect x="536" y="208" width="46" height="46" rx="9" fill="#C7EAF2" stroke="#C9D6E2"/>
+    <text x="596" y="229" fill="#22304A">头发 · 淡青蓝</text>
+    <text x="596" y="249" fill="#8A99AB" font-size="13">#C7EAF2　亮 #E6F8FB　暗 #9BD5E4</text>
+    <!-- 眼睛 -->
+    <rect x="536" y="270" width="46" height="46" rx="9" fill="#8FCF7A" stroke="#C9D6E2"/>
+    <text x="596" y="291" fill="#22304A">眼睛 · 薄荷绿</text>
+    <text x="596" y="311" fill="#8A99AB" font-size="13">#8FCF7A　瞳 #5FA84F</text>
+    <!-- 项圈 -->
+    <rect x="536" y="332" width="46" height="46" rx="9" fill="#7B4FC9" stroke="#C9D6E2"/>
+    <text x="596" y="353" fill="#22304A">项圈 · 紫罗兰</text>
+    <text x="596" y="373" fill="#8A99AB" font-size="13">#7B4FC9</text>
+    <!-- 裙装主色 -->
+    <rect x="536" y="394" width="46" height="46" rx="9" fill="#A9C7EA" stroke="#C9D6E2"/>
+    <text x="596" y="415" fill="#22304A">裙装主色 · 浅天蓝</text>
+    <text x="596" y="435" fill="#8A99AB" font-size="13">#A9C7EA</text>
+    <!-- 深蓝拼接 -->
+    <rect x="536" y="456" width="46" height="46" rx="9" fill="#4E6BA8" stroke="#C9D6E2"/>
+    <text x="596" y="477" fill="#22304A">胸前拼接 · 靛蓝</text>
+    <text x="596" y="497" fill="#8A99AB" font-size="13">#4E6BA8</text>
+    <!-- 肩甲 -->
+    <rect x="536" y="518" width="46" height="46" rx="9" fill="#3E4E6B" stroke="#C9D6E2"/>
+    <text x="596" y="539" fill="#22304A">肩甲 / 靴底 · 藏青</text>
+    <text x="596" y="559" fill="#8A99AB" font-size="13">#3E4E6B　#1F2A44</text>
+    <!-- 袜靴 -->
+    <rect x="536" y="580" width="46" height="46" rx="9" fill="#2C3A5C" stroke="#C9D6E2"/>
+    <text x="596" y="601" fill="#22304A">袜靴 · 深蓝底 + 亮蓝斑点</text>
+    <text x="596" y="621" fill="#8A99AB" font-size="13">#2C3A5C ＋ #93BDE4</text>
+    <!-- 薄荷 -->
+    <rect x="536" y="642" width="46" height="46" rx="9" fill="#A9E3A2" stroke="#C9D6E2"/>
+    <text x="596" y="663" fill="#22304A">点缀 · 薄荷绿</text>
+    <text x="596" y="683" fill="#8A99AB" font-size="13">#A9E3A2　裙 / 腰侧</text>
+    <!-- 淡紫裙 -->
+    <rect x="536" y="704" width="46" height="46" rx="9" fill="#CDC0EC" stroke="#C9D6E2"/>
+    <text x="596" y="725" fill="#22304A">裙摆 · 淡紫</text>
+    <text x="596" y="745" fill="#8A99AB" font-size="13">#CDC0EC　内层 #E4DCF6</text>
+  </g>
+
+  <!-- 关键词 -->
+  <rect x="524" y="786" width="352" height="286" rx="14" fill="#FFFFFF" stroke="#D5E3EF"/>
+  <text x="548" y="822" font-size="17" font-weight="700" fill="#22304A">形象关键词</text>
+  <g font-size="14" fill="#41526B">
+    <text x="548" y="856">· 半透明感的淡青蓝长发，及胸侧发</text>
+    <text x="548" y="884">· 头顶一对白色圆润兽耳</text>
+    <text x="548" y="912">· 薄荷绿大眼，极浅肤色，微微腮红</text>
+    <text x="548" y="940">· 颈部紫色细项圈</text>
+    <text x="548" y="968">· 浅蓝连衣裙，深藏青肩甲与胸襟</text>
+    <text x="548" y="996">· 腰间白色束带，裙摆淡紫，腰侧薄荷绿</text>
+    <text x="548" y="1024">· 深蓝斑点过膝袜靴，裸臂</text>
+    <text x="548" y="1052">· 整体气质：清冷、干净、软萌</text>
+  </g>
+</svg>

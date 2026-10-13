@@ -1,0 +1,31 @@
+{
+  "item": "fantasy_tavern:nordic_mist_talk",
+  "effects": [
+    [
+      {
+        "effect": "minecraft:absorption",
+        "duration": 150,
+        "amplifier": 3,
+        "probability": 1.0
+      },
+      {
+        "effect": "minecraft:resistance",
+        "duration": 300,
+        "amplifier": 0,
+        "probability": 1.0
+      },
+      {
+        "effect": "minecraft:fire_resistance",
+        "duration": 600,
+        "amplifier": 0,
+        "probability": 1.0
+      },
+      {
+        "effect": "minecraft:regeneration",
+        "duration": 20,
+        "amplifier": 1,
+        "probability": 1.0
+      }
+    ]
+  ]
+}

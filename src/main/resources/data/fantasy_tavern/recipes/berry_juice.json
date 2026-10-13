@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:sweet_berries"
+    },
+    "X": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "pattern": [
+    "#XX",
+    "XX ",
+    "   "
+  ],
+  "result": {
+    "count": 4,
+    "item": "fantasy_tavern:berry_juice"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,20 @@
+{
+  "kid_festival": {
+    "subtitle": "item.fantasy_tavern.music_dics_kid_festival",
+    "sounds": [
+      {
+        "name": "fantasy_tavern:kid_festival",
+        "stream": true
+      }
+    ]
+  },
+  "boys_and_girls_of_the_age_of_science": {
+    "subtitle": "item.fantasy_tavern.music_dics_boys_and_girls_of_the_age_of_science",
+    "sounds": [
+      {
+        "name": "fantasy_tavern:boys_and_girls_of_the_age_of_science",
+        "stream": true
+      }
+    ]
+  }
+}

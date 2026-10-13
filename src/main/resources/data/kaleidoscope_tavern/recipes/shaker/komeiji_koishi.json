@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "item": "kaleidoscope_tavern:vinegar"
+    },
+    {
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_green"
+    },
+    {
+      "item": "minecraft:emerald_block"
+    }
+  ],
+  "result": {
+    "item": "fantasy_tavern:komeiji_koishi"
+  }
+}

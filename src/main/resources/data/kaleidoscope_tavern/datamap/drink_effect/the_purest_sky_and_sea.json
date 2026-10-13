@@ -1,0 +1,19 @@
+{
+  "item": "fantasy_tavern:berry_juice",
+  "effects": [
+    [
+      {
+        "effect": "minecraft:luck",
+        "duration": 60,
+        "amplifier": 0,
+        "probability": 1.0
+      },
+      {
+        "effect": "minecraft:regeneration",
+        "duration": 5,
+        "amplifier": 0,
+        "probability": 1.0
+      }
+    ]
+  ]
+}
