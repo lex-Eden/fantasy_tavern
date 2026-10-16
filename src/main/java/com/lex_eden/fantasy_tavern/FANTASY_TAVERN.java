@@ -1,6 +1,7 @@
 package com.lex_eden.fantasy_tavern;
 
 import com.lex_eden.fantasy_tavern.data.*;
+import com.lex_eden.fantasy_tavern.effect.ModEffects;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
@@ -34,6 +35,7 @@ public class FANTASY_TAVERN
         DrinkItemblocks.register(modEventBus);
         fumoblocks.register(modEventBus);
         SoundEvents.register(modEventBus);
+        ModEffects.register(modEventBus);
         modEventBus.addListener(this::addCreative);
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
