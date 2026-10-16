@@ -3,20 +3,20 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:sweet_berries"
+      "item": "minecraft:gold_block"
     },
     "X": {
-      "item": "minecraft:glass_bottle"
+      "item": "fantasy_tavern:lucky_berry"
     }
   },
   "pattern": [
-    "#XX",
-    "XX ",
-    "   "
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
-    "count": 4,
-    "item": "fantasy_tavern:berry_juice"
+    "count": 1,
+    "item": "fantasy_tavern:enchanted_berry"
   },
   "show_notification": true
 }

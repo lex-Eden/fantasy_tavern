@@ -57,8 +57,6 @@ public class FANTASY_TAVERN
             event.accept(Drinkitems.ENCHANTED_BERRY);
             event.accept(Drinkitems.LUCKY_BERRY);
             // 饮品
-            event.accept(Drinkitems.BERRY_JUICE);
-            event.accept(Drinkitems.BERRY_JUICE_100);
             event.accept(Drinkitems.ENCHANTED_BERRY_JUICE);
             event.accept(Drinkitems.KOMEIJI_KOISHI);
             event.accept(Drinkitems.NORDIC_MIST_TALK);

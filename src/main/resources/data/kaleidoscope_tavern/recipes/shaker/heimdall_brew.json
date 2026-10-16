@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "item": "kaleidoscope_tavern:polaris_sweet_white"
+    },
+    {
+      "item": "fantasy_tavern:nordic_mist_talk"
+    },
+    {
+      "item": "fantasy_tavern:nordic_legends"
+    }
+  ],
+  "result": {
+    "item": "fantasy_tavern:heimdall_brew"
+  }
+}

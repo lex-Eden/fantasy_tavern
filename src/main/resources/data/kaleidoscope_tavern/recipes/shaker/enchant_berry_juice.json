@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "item": "kaleidoscope_tavern:sweet_berry_wine"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "fantasy_tavern:enchanted_berry"
+    }
+  ],
+  "result": {
+    "item": "fantasy_tavern:enchant_berry_juice"
+  }
+}

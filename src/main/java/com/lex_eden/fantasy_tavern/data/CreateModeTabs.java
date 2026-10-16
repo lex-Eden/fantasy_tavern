@@ -24,8 +24,6 @@ public class CreateModeTabs {
                         output.accept(Drinkitems.ENCHANTED_BERRY.get());
                         output.accept(Drinkitems.LUCKY_BERRY.get());
                         // 鸡尾酒饮品
-                        output.accept(Drinkitems.BERRY_JUICE.get());
-                        output.accept(Drinkitems.BERRY_JUICE_100.get());
                         output.accept(Drinkitems.ENCHANTED_BERRY_JUICE.get());
                         output.accept(Drinkitems.KOMEIJI_KOISHI.get());
                         output.accept(Drinkitems.NORDIC_MIST_TALK.get());

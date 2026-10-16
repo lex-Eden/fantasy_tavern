@@ -12,11 +12,8 @@ public class DrinkItemblocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, FANTASY_TAVERN.MOD_ID);
 
-    public static final RegistryObject<Block> BERRY_JUICE =
-            BLOCKS.register("berry_juice", CocktailBlock::new);
-
-    public static final RegistryObject<Block> BERRY_JUICE_100 =
-            BLOCKS.register("berry_juice_100", CocktailBlock::new);
+    public static final RegistryObject<Block> SATSUKI_RIN =
+            BLOCKS.register("satsuki_rin", CocktailBlock::new);
 
     public static final RegistryObject<Block> ENCHANTED_BERRY_JUICE =
             BLOCKS.register("enchant_berry_juice", CocktailBlock::new);
@@ -33,8 +30,8 @@ public class DrinkItemblocks {
     public static final RegistryObject<Block> KOMEIJI_KOISHI =
             BLOCKS.register("komeiji_koishi", CocktailBlock::new);
 
-    public static final RegistryObject<Block> COOKTAIL =
-            BLOCKS.register("cocktail", CocktailBlock::new);
+    public static final RegistryObject<Block> SAKUYA =
+            BLOCKS.register("sakuya", CocktailBlock::new);
 
     public static final RegistryObject<Block> ILLUSIONARY_NIGHT =
             BLOCKS.register("illusionary_night", CocktailBlock::new);

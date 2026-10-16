@@ -3,16 +3,19 @@
   "itemGroup.fantasy_tavern_tab_other": "秘封酒馆:其他",
   "item.fantasy_tavern.wheet_flour": "小麦粉",
   "item.fantasy_tavern.yeast": "酵母",
-  "item.fantasy_tavern.wine_glass": "酒杯",
 
   "item.fantasy_tavern.enchanted_berry": "附魔甜浆果",
   "item.fantasy_tavern.lucky_berry": "幸运甜浆果",
 
-  "block.fantasy_tavern.berry_juice": "浆果汁",
-  "block.fantasy_tavern.berry_juice_100": "100%浆果汁",
-  "block.fantasy_tavern.enchant_berry_juice": "100%附魔浆果汁",
+  "block.fantasy_tavern.enchant_berry_juice": "附魔浆果汁",
+
   "block.fantasy_tavern.komeiji_koishi": "古茗地恋",
-  "block.fantasy_tavern.cocktail": "十四夜",
+  "block.fantasy_tavern.satsuki_rin": "冴月",
+  "block.fantasy_tavern.sakuya": "十六夜",
+  "block.fantasy_tavern.youmu": "虚幻之樱",
+  "block.fantasy_tavern.yuyuko": "樱葬",
+  "block.fantasy_tavern.kaguya": "竹林月光",
+
   "block.fantasy_tavern.nordic_mist_talk": "北欧物语",
   "block.fantasy_tavern.nordic_legends": "北欧传说",
   "block.fantasy_tavern.heimdall_brew": "海姆达尔之酿",

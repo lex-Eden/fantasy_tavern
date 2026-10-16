@@ -1,8 +1,15 @@
 {
   "values": [
-    "minecraft:sweet_berries",
-    "fantasy_tavern:berry_juice",
     "kaleidoscope_tavern:vinegar",
-    "minecraft:emerald_block"
+    "kaleidoscope_tavern:sweet_berry_wine",
+    "kaleidoscope_tavern:polaris_sweet_white",
+    "minecraft:sweet_berries",
+    "minecraft:emerald_block",
+    "minecraft:sugar",
+    "minecraft:golden_apple",
+    "minecraft:enchanted_golden_apple",
+    "fantasy_tavern:nordic_legends",
+    "fantasy_tavern:nordic_mist_talk",
+    "fantasy_tavern:enchanted_berry"
   ]
 }
