@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.lex_eden.fantasy_tavern.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "fantasy_tavern.refmap.json",
+  "mixins": [
+    "PlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
