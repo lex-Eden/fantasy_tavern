@@ -1,6 +1,7 @@
 package com.lex_eden.fantasy_tavern;
 
 import com.lex_eden.fantasy_tavern.data.*;
+import com.lex_eden.fantasy_tavern.effect.ModEffects;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
@@ -34,6 +35,7 @@ public class FANTASY_TAVERN
         DrinkItemblocks.register(modEventBus);
         fumoblocks.register(modEventBus);
         SoundEvents.register(modEventBus);
+        ModEffects.register(modEventBus);
         modEventBus.addListener(this::addCreative);
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
@@ -75,6 +77,12 @@ public class FANTASY_TAVERN
             event.accept(Drinkitems.ILLUSIONARY_WHITE_TRAVELER);
             event.accept(Drinkitems.MUGEN_NOH);
             event.accept(Drinkitems.ENTRUST_THE_WORLD_TO_IDOLS);
+            event.accept(Drinkitems.SATSUKI_RIN);
+            event.accept(Drinkitems.SAKUYA);
+            event.accept(Drinkitems.YOUMU);
+            event.accept(Drinkitems.YUYUKO);
+            event.accept(Drinkitems.KAGUYA);
+            event.accept(Drinkitems.FOURTEENTH_NIGHT);
         }
         {
             if (event.getTabKey() == CreateModeTabs.FANTASY_TAVERN_TAB_OTHER.getKey()){
@@ -88,6 +96,7 @@ public class FANTASY_TAVERN
                 event.accept(fumoblocks.HYSLER_FUMO);
                 event.accept(fumoblocks.HANA_FUMO);
                 event.accept(fumoblocks.WATER_FUMO);
+                event.accept(Drinkitems.EDEN_BOX);
             }
         }
     }

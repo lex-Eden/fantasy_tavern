@@ -1,0 +1,105 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries",
+          "weight": 38,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 42.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:eden_box",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 16,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:illusionary_night",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:dream_of_huaxu",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:the_purest_sky_and_sea",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:celestial_wizardr",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:bell_of_avici",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:emotional_skyscraper",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:wind_of_agartha",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:the_sea_that_reflects_one_s_home_planet",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:the_lost_emotion",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:illusionary_white_traveler",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:mugen_noh",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:entrust_the_world_to_idols",
+          "weight": 5
+        }
+      ,
+        {
+          "type": "minecraft:item",
+          "name": "fantasy_tavern:lucky_berry",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -34,7 +34,7 @@ public class DrinkablePotionItem extends PotionItem {
         this.saturation = saturation;
     }
 
-    // Forge 1.20.1 签名：(ItemStack, @Nullable Level, List<Component>, TooltipFlag)
+    // Forge eden_box.json.20.eden_box.json 签名：(ItemStack, @Nullable Level, List<Component>, TooltipFlag)
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level,
                                  List<Component> tooltip, TooltipFlag flag) {

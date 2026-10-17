@@ -29,6 +29,8 @@ public class Drinkitems {
             ITEMS.register("yeast",()-> new Item((new Item.Properties())));
     public static final RegistryObject<Item> WINE_GLASS=
             ITEMS.register("wine_glass",()-> new Item((new Item.Properties())));
+    public static final RegistryObject<Item> EDEN_BOX=
+            ITEMS.register("eden_box",()-> new BlindBox((new Item.Properties())));
     // 物品注册-浆果
 
     // 基础食物注册
@@ -37,7 +39,7 @@ public class Drinkitems {
     public static final RegistryObject<Item> LUCKY_BERRY=
             ITEMS.register("lucky_berry",()-> (new BowlFoodItem(new Item.Properties().food(foods.LUCKY_BERRY).rarity(Rarity.RARE))));
     // 饮品注册-基础底子
-    // 基础底子饱食度，统一3，1.2f
+    // 基础底子饱食度，统一3，eden_box.json.2f
     public static final RegistryObject<Item> TEQUILA =
             ITEMS.register("tequila",()-> new DrinkablePotionItem(
                     (new Item.Properties()).stacksTo(1),
@@ -89,17 +91,30 @@ public class Drinkitems {
     public static final RegistryObject<Item> HEIMDALL_BREW =
             ITEMS.register("heimdall_brew",()-> new CocktailBlockItem(DrinkItemblocks.HEIMDALL_BREW.get()));
 
-    public static final RegistryObject<Item> SATSUKI_RIN =
-            ITEMS.register("satsuki_rin",()-> new CocktailBlockItem(DrinkItemblocks.SATSUKI_RIN.get()));
-
     //竹林月光
-
+    public static final RegistryObject<Item> KAGUYA =
+            ITEMS.register("kaguya",()-> new CocktailBlockItem(DrinkItemblocks.KAGUYA.get()));
     //古明地恋
     public static final RegistryObject<Item> KOMEIJI_KOISHI =
             ITEMS.register("komeiji_koishi",()-> new CocktailBlockItem(DrinkItemblocks.KOMEIJI_KOISHI.get()));
-    //概念神
+    //十六夜
     public static final RegistryObject<Item> SAKUYA =
             ITEMS.register("sakuya",()-> new CocktailBlockItem(DrinkItemblocks.SAKUYA.get()));
+    //樱葬
+    public static final RegistryObject<Item> YUYUKO =
+            ITEMS.register("yuyuko",()-> new CocktailBlockItem(DrinkItemblocks.YUYUKO.get()));
+    //虚幻之樱
+    public static final RegistryObject<Item> YOUMU =
+            ITEMS.register("youmu",()-> new CocktailBlockItem(DrinkItemblocks.YOUMU.get()));
+    //冴月
+    public static final RegistryObject<Item> SATSUKI_RIN =
+            ITEMS.register("satsuki_rin",()-> new CocktailBlockItem(DrinkItemblocks.SATSUKI_RIN.get()));
+
+    //十四夜
+    public static final RegistryObject<Item> FOURTEENTH_NIGHT =
+            ITEMS.register("fourteenth_night",()-> new CocktailBlockItem(DrinkItemblocks.FOURTEENTH_NIGHT.get()));
+
+
     //幻视之夜
     public static final RegistryObject<Item> ILLUSIONARY_NIGHT =
             ITEMS.register("illusionary_night",()-> new CocktailBlockItem(DrinkItemblocks.ILLUSIONARY_NIGHT.get()));

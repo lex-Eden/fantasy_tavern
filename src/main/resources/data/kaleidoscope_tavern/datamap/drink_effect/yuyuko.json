@@ -1,0 +1,13 @@
+{
+  "item": "fantasy_tavern:yuyuko",
+  "effects": [
+    [
+      {
+        "effect": "fantasy_tavern:wild_hungry",
+        "duration": 600,
+        "amplifier": 0,
+        "probability": 1.0
+      }
+    ]
+  ]
+}

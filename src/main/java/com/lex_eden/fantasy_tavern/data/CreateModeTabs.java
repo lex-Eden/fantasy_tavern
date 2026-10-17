@@ -25,10 +25,20 @@ public class CreateModeTabs {
                         output.accept(Drinkitems.LUCKY_BERRY.get());
                         // 鸡尾酒饮品
                         output.accept(Drinkitems.ENCHANTED_BERRY_JUICE.get());
+
+                        output.accept(Drinkitems.SATSUKI_RIN.get());
+                        output.accept(Drinkitems.SAKUYA.get());
+                        output.accept(Drinkitems.YOUMU.get());
+                        output.accept(Drinkitems.YUYUKO.get());
+                        output.accept(Drinkitems.KAGUYA.get());
+                        output.accept(Drinkitems.FOURTEENTH_NIGHT.get());
                         output.accept(Drinkitems.KOMEIJI_KOISHI.get());
+
+
                         output.accept(Drinkitems.NORDIC_MIST_TALK.get());
                         output.accept(Drinkitems.NORDIC_LEGENDS.get());
                         output.accept(Drinkitems.HEIMDALL_BREW.get());
+
                         output.accept(Drinkitems.ILLUSIONARY_NIGHT.get());
                         output.accept(Drinkitems.DREAM_OF_HUAXU.get());
                         output.accept(Drinkitems.THE_PUREST_SKY_AND_SEA.get());
@@ -46,7 +56,7 @@ public class CreateModeTabs {
 
     public static final RegistryObject<CreativeModeTab> FANTASY_TAVERN_TAB_OTHER =
             CREATIVE_MODE_TABS.register("fantasy_tavern_tab_other", () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(fumoblocks.LEX_EDEN_FUMO.get()))
+                    .icon(() -> new ItemStack(Drinkitems.EDEN_BOX.get()))
                     .title(Component.translatable("itemGroup.fantasy_tavern_tab_other"))
                     .displayItems((parameters, output) -> {
                         //唱片
@@ -59,6 +69,7 @@ public class CreateModeTabs {
                         output.accept(fumoblocks.LEX_EDEN_FUMO.get());
                         output.accept(fumoblocks.TIREZ_EDEN_FUMO.get());
                         output.accept(fumoblocks.SARA_EDEN_FUMO.get());
+                        output.accept(Drinkitems.EDEN_BOX.get());
 
                     })
                     .build());

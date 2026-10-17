@@ -12,9 +12,7 @@ public class DrinkItemblocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, FANTASY_TAVERN.MOD_ID);
 
-    public static final RegistryObject<Block> SATSUKI_RIN =
-            BLOCKS.register("satsuki_rin", CocktailBlock::new);
-
+    //北欧神话系列
     public static final RegistryObject<Block> ENCHANTED_BERRY_JUICE =
             BLOCKS.register("enchant_berry_juice", CocktailBlock::new);
 
@@ -26,6 +24,9 @@ public class DrinkItemblocks {
 
     public static final RegistryObject<Block> HEIMDALL_BREW =
             BLOCKS.register("heimdall_brew", CocktailBlock::new);
+    //人物志
+    public static final RegistryObject<Block> SATSUKI_RIN =
+            BLOCKS.register("satsuki_rin", CocktailBlock::new);
 
     public static final RegistryObject<Block> KOMEIJI_KOISHI =
             BLOCKS.register("komeiji_koishi", CocktailBlock::new);
@@ -33,11 +34,25 @@ public class DrinkItemblocks {
     public static final RegistryObject<Block> SAKUYA =
             BLOCKS.register("sakuya", CocktailBlock::new);
 
+    public static final RegistryObject<Block> KAGUYA =
+            BLOCKS.register("kaguya", CocktailBlock::new);
+
+    public static final RegistryObject<Block> YUYUKO =
+            BLOCKS.register("yuyuko", CocktailBlock::new);
+
+    public static final RegistryObject<Block> YOUMU =
+            BLOCKS.register("youmu", CocktailBlock::new);
+
+    public static final RegistryObject<Block> FOURTEENTH_NIGHT =
+            BLOCKS.register("fourteenth_night", CocktailBlock::new);
+
+    //秘封
+
     public static final RegistryObject<Block> ILLUSIONARY_NIGHT =
             BLOCKS.register("illusionary_night", CocktailBlock::new);
 
     public static final RegistryObject<Block> DREAM_OF_HUAXU =
-            BLOCKS.register("shanghai_tea", CocktailBlock::new);
+            BLOCKS.register("dream_of_huaxu", CocktailBlock::new);
 
     public static final RegistryObject<Block> THE_PUREST_SKY_AND_SEA =
             BLOCKS.register("the_purest_sky_and_sea", CocktailBlock::new);

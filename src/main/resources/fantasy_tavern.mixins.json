@@ -1,10 +1,10 @@
 {
   "required": true,
-  "minVersion": "0.8",
-  "package": "com.lex_eden.fantasy_tavern.mixins",
+  "package": "com.lex_eden.fantasy_tavern.mixin",
   "compatibilityLevel": "JAVA_17",
+  "refmap": "fantasy_tavern.refmap.json",
   "mixins": [
-    "WorldDimensionsMixin"
+    "PlayerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
