@@ -4,6 +4,7 @@ import com.lex_eden.fantasy_tavern.FANTASY_TAVERN;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.stats.Stats;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;
@@ -35,7 +36,11 @@ public class BlindBox extends Item {
                             player.drop(drop, false);
                         }
                     }
-            }
+                    player.awardStat(Stats.ITEM_USED.get(this));
+                    if (!player.getAbilities().instabuild) {
+                        itemstack.shrink(1);
+                    }
+                }
             return InteractionResultHolder.sidedSuccess(itemstack, level.isClientSide());
 
     }

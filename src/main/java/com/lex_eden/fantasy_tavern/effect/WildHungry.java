@@ -32,5 +32,5 @@ public static void onStartUsingItem(LivingEntityUseItemEvent.Start event) {
     }
 
     event.setDuration(1);
-}
+    }
 }

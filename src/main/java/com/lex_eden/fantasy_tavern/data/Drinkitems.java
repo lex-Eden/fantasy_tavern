@@ -37,7 +37,7 @@ public class Drinkitems {
     public static final RegistryObject<Item> ENCHANTED_BERRY=
             ITEMS.register("enchanted_berry",()-> (new EnchantedGoldenAppleItem(new Item.Properties().food(foods.ENCHANTED_BERRY).rarity(Rarity.EPIC))));
     public static final RegistryObject<Item> LUCKY_BERRY=
-            ITEMS.register("lucky_berry",()-> (new BowlFoodItem(new Item.Properties().food(foods.LUCKY_BERRY).rarity(Rarity.RARE))));
+            ITEMS.register("lucky_berry",()-> (new Item(new Item.Properties().food(foods.LUCKY_BERRY).rarity(Rarity.RARE))));
     // 饮品注册-基础底子
     // 基础底子饱食度，统一3，eden_box.json.2f
     public static final RegistryObject<Item> TEQUILA =

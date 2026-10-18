@@ -18,6 +18,12 @@ public class ModEffects {
             MOB_EFFECTS.register("wild_hungry",
                     () -> new WildHungry(MobEffectCategory.BENEFICIAL, 0xFCA8B8));
 
+    public static final RegistryObject<MobEffect> THIRD_PLAYER =
+            MOB_EFFECTS.register("third_player",()-> new ThridPlayer(MobEffectCategory.BENEFICIAL,0xFCA8B8));
+
+
+
+
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
     }
