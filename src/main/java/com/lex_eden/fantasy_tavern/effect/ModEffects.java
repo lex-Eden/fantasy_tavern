@@ -15,11 +15,13 @@ public class ModEffects {
 
 
     public static final RegistryObject<MobEffect> WILD_HUNGRY =
-            MOB_EFFECTS.register("wild_hungry",
-                    () -> new WildHungry(MobEffectCategory.BENEFICIAL, 0xFCA8B8));
+            MOB_EFFECTS.register("wild_hungry", () -> new WildHungry(MobEffectCategory.BENEFICIAL, 0xFCA8B8));
 
     public static final RegistryObject<MobEffect> THIRD_PLAYER =
             MOB_EFFECTS.register("third_player",()-> new ThridPlayer(MobEffectCategory.BENEFICIAL,0xFCA8B8));
+
+    public static final RegistryObject<MobEffect> THIRD_PLAYER_HELP =
+            MOB_EFFECTS.register("third_player_help",()-> new ThridPlayerHelp(MobEffectCategory.BENEFICIAL,0xFCA8B8));
 
 
 

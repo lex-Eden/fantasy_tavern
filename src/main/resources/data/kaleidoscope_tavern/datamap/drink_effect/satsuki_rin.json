@@ -1,0 +1,13 @@
+{
+  "item": "fantasy_tavern:satsuki_rin",
+  "effects": [
+    [
+      {
+        "effect": "fantasy_tavern:third_player",
+        "duration": 600,
+        "amplifier": 0,
+        "probability": 1.0
+      }
+    ]
+  ]
+}
