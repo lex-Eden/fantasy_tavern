@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,waterlogged=false": {
+      "model": "fantasy_tavern:block/mixology/the_lost_emotion",
+      "y": 90
+    },
+    "facing=east,waterlogged=true": {
+      "model": "fantasy_tavern:block/mixology/the_lost_emotion",
+      "y": 90
+    },
+    "facing=north,waterlogged=false": {
+      "model": "fantasy_tavern:block/mixology/the_lost_emotion"
+    },
+    "facing=north,waterlogged=true": {
+      "model": "fantasy_tavern:block/mixology/the_lost_emotion"
+    },
+    "facing=south,waterlogged=false": {
+      "model": "fantasy_tavern:block/mixology/the_lost_emotion",
+      "y": 180
+    },
+    "facing=south,waterlogged=true": {
+      "model": "fantasy_tavern:block/mixology/the_lost_emotion",
+      "y": 180
+    },
+    "facing=west,waterlogged=false": {
+      "model": "fantasy_tavern:block/mixology/the_lost_emotion",
+      "y": 270
+    },
+    "facing=west,waterlogged=true": {
+      "model": "fantasy_tavern:block/mixology/the_lost_emotion",
+      "y": 270
+    }
+  }
+}

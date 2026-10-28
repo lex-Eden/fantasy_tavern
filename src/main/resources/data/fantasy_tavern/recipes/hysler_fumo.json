@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "Y": {
+      "item": "minecraft:book"
+    },
+    "X": {
+      "item": "fantasy_tavern:lucky_berry"
+    }
+  },
+  "pattern": [
+    "#Y#",
+    "YXY",
+    "#Y#"
+  ],
+  "result": {
+    "count": 1,
+    "item": "fantasy_tavern:hysler_fumo"
+  },
+  "show_notification": true
+}

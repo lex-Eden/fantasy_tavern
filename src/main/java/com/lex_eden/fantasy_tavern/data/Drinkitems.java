@@ -1,6 +1,8 @@
 package com.lex_eden.fantasy_tavern.data;
 
+import com.github.ysbbbbbb.kaleidoscopetavern.init.ModBlocks;
 import com.github.ysbbbbbb.kaleidoscopetavern.item.CocktailBlockItem;
+import com.github.ysbbbbbb.kaleidoscopetavern.item.DrinkBlockItem;
 import com.lex_eden.fantasy_tavern.FANTASY_TAVERN;
 
 import net.minecraft.world.effect.MobEffectInstance;
@@ -81,38 +83,27 @@ public class Drinkitems {
             ITEMS.register("enchant_berry_juice",()-> new CocktailBlockItem(DrinkItemblocks.ENCHANTED_BERRY_JUICE.get()));
 
     // 其他饮品
-    //北欧雾语
-    public static final RegistryObject<Item> NORDIC_MIST_TALK =
-            ITEMS.register("nordic_mist_talk",()-> new CocktailBlockItem(DrinkItemblocks.NORDIC_MIST_TALK.get()));
-    //北欧传说
-    public static final RegistryObject<Item> NORDIC_LEGENDS =
-            ITEMS.register("nordic_legends",()-> new CocktailBlockItem(DrinkItemblocks.NORDIC_LEGENDS.get()));
-    //海尔大幕
-    public static final RegistryObject<Item> HEIMDALL_BREW =
-            ITEMS.register("heimdall_brew",()-> new CocktailBlockItem(DrinkItemblocks.HEIMDALL_BREW.get()));
 
-    //竹林月光
-    public static final RegistryObject<Item> KAGUYA =
-            ITEMS.register("kaguya",()-> new CocktailBlockItem(DrinkItemblocks.KAGUYA.get()));
     //古明地恋
     public static final RegistryObject<Item> KOMEIJI_KOISHI =
             ITEMS.register("komeiji_koishi",()-> new CocktailBlockItem(DrinkItemblocks.KOMEIJI_KOISHI.get()));
-    //十六夜
-    public static final RegistryObject<Item> SAKUYA =
-            ITEMS.register("sakuya",()-> new CocktailBlockItem(DrinkItemblocks.SAKUYA.get()));
-    //樱葬
-    public static final RegistryObject<Item> YUYUKO =
-            ITEMS.register("yuyuko",()-> new CocktailBlockItem(DrinkItemblocks.YUYUKO.get()));
-    //虚幻之樱
-    public static final RegistryObject<Item> YOUMU =
-            ITEMS.register("youmu",()-> new CocktailBlockItem(DrinkItemblocks.YOUMU.get()));
     //冴月
     public static final RegistryObject<Item> SATSUKI_RIN =
             ITEMS.register("satsuki_rin",()-> new CocktailBlockItem(DrinkItemblocks.SATSUKI_RIN.get()));
+    //十六夜
+    public static final RegistryObject<Item> SAKUYA =
+            ITEMS.register("sakuya",()-> new CocktailBlockItem(DrinkItemblocks.SAKUYA.get()));
 
     //十四夜
     public static final RegistryObject<Item> FOURTEENTH_NIGHT =
-            ITEMS.register("fourteenth_night",()-> new CocktailBlockItem(DrinkItemblocks.FOURTEENTH_NIGHT.get()));
+            ITEMS.register("fourteenth_night",()-> new DrinkBlockItem(DrinkItemblocks.FOURTEENTH_NIGHT.get()));
+    //樱葬
+    public static final RegistryObject<Item> YUYUKO =
+            ITEMS.register("yuyuko", () -> new DrinkBlockItem(DrinkItemblocks.YUYUKO.get()));
+    //竹林月光
+    public static final RegistryObject<Item> KAGUYA =
+            ITEMS.register("kaguya",()-> new DrinkBlockItem(DrinkItemblocks.KAGUYA.get()));
+    //虚幻之樱
 
 
     //幻视之夜

@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_white"
+    },
+    {
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_light_purple"
+    },
+    {
+      "item":"kaleidoscope_tavern:white_lady"
+    }
+  ],
+  "result": {
+    "item": "fantasy_tavern:wind_of_agartha"
+  }
+}

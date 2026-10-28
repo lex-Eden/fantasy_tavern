@@ -4,6 +4,7 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.AABB;
 import java.util.List;
@@ -27,7 +28,7 @@ public class ThridPlayer extends MobEffect {
         Level level = LivingEntity.level();
         double radius = Math.min(amplifier + 1, 1) * 6;
         AABB range = LivingEntity.getBoundingBox().inflate(radius);
-        Predicate<LivingEntity> filter = entity -> entity != LivingEntity && entity.isAlive();
+        Predicate<LivingEntity> filter = entity -> entity != LivingEntity && entity.isAlive() && entity instanceof Player;;
         List<LivingEntity> entities = level.getEntitiesOfClass(LivingEntity.class, range, filter);
         if (entities.isEmpty()) {
             return;

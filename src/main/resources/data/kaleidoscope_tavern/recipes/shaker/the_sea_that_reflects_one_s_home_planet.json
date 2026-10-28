@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_blue"
+    },
+    {
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_white"
+    },
+    {
+      "item":"minecraft:heart_of_the_sea"
+    }
+  ],
+  "result": {
+    "item": "fantasy_tavern:the_sea_that_reflects_one_s_home_planet"
+  }
+}

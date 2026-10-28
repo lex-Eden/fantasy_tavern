@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_blue"
+    },
+    {
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_white"
+    },
+    {
+      "item":"minecraft:prismarine_crystals"
+    }
+  ],
+  "result": {
+    "item": "fantasy_tavern:the_purest_sky_and_sea"
+  }
+}

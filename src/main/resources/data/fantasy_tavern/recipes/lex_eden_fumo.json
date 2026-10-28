@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:blue_ice"
+    },
+    "X": {
+      "item": "fantasy_tavern:lucky_berry"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "item": "fantasy_tavern:lex_eden_fumo"
+  },
+  "show_notification": true
+}

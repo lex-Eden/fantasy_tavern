@@ -1,8 +1,10 @@
 package com.lex_eden.fantasy_tavern.data;
 
+import com.github.ysbbbbbb.kaleidoscopetavern.block.brew.DrinkBlock;
 import com.github.ysbbbbbb.kaleidoscopetavern.block.mixology.CocktailBlock;
 import com.lex_eden.fantasy_tavern.FANTASY_TAVERN;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -12,18 +14,10 @@ public class DrinkItemblocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, FANTASY_TAVERN.MOD_ID);
 
-    //北欧神话系列
+
     public static final RegistryObject<Block> ENCHANTED_BERRY_JUICE =
             BLOCKS.register("enchant_berry_juice", CocktailBlock::new);
 
-    public static final RegistryObject<Block> NORDIC_MIST_TALK =
-            BLOCKS.register("nordic_mist_talk", CocktailBlock::new);
-
-    public static final RegistryObject<Block> NORDIC_LEGENDS =
-            BLOCKS.register("nordic_legends", CocktailBlock::new);
-
-    public static final RegistryObject<Block> HEIMDALL_BREW =
-            BLOCKS.register("heimdall_brew", CocktailBlock::new);
     //人物志
     public static final RegistryObject<Block> SATSUKI_RIN =
             BLOCKS.register("satsuki_rin", CocktailBlock::new);
@@ -34,17 +28,35 @@ public class DrinkItemblocks {
     public static final RegistryObject<Block> SAKUYA =
             BLOCKS.register("sakuya", CocktailBlock::new);
 
-    public static final RegistryObject<Block> KAGUYA =
-            BLOCKS.register("kaguya", CocktailBlock::new);
+    public static final RegistryObject<Block> KAGUYA = BLOCKS.register("kaguya", DrinkBlock.create().maxCount(4).shapes(
+            Block.box(4, 0, 4, 12, 15, 12),
+            Block.box(0, 0, 4, 16, 15, 12),
+            Shapes.or(
+                    Block.box(0, 0, 8, 16, 15, 16),
+                    Block.box(4, 0, 0, 12, 15, 16)
+            ),
+            Block.box(0, 0, 0, 16, 16, 16)
+    ).build());
 
-    public static final RegistryObject<Block> YUYUKO =
-            BLOCKS.register("yuyuko", CocktailBlock::new);
+    public static final RegistryObject<Block> YUYUKO = BLOCKS.register("yuyuko", DrinkBlock.create().maxCount(4).shapes(
+            Block.box(4, 0, 4, 12, 15, 12),
+            Block.box(0, 0, 4, 16, 15, 12),
+            Shapes.or(
+                    Block.box(0, 0, 8, 16, 15, 16),
+                    Block.box(4, 0, 0, 12, 15, 16)
+            ),
+            Block.box(0, 0, 0, 16, 16, 16)
+    ).build());
 
-    public static final RegistryObject<Block> YOUMU =
-            BLOCKS.register("youmu", CocktailBlock::new);
-
-    public static final RegistryObject<Block> FOURTEENTH_NIGHT =
-            BLOCKS.register("fourteenth_night", CocktailBlock::new);
+    public static final RegistryObject<Block> FOURTEENTH_NIGHT = BLOCKS.register("fourteenth_night", DrinkBlock.create().maxCount(4).shapes(
+            Block.box(4, 0, 4, 12, 15, 12),
+            Block.box(0, 0, 4, 16, 15, 12),
+            Shapes.or(
+                    Block.box(0, 0, 8, 16, 15, 16),
+                    Block.box(4, 0, 0, 12, 15, 16)
+            ),
+            Block.box(0, 0, 0, 16, 16, 16)
+    ).build());
 
     //秘封
 

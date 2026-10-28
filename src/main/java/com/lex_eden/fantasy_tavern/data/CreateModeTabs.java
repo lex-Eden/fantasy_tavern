@@ -28,16 +28,10 @@ public class CreateModeTabs {
 
                         output.accept(Drinkitems.SATSUKI_RIN.get());
                         output.accept(Drinkitems.SAKUYA.get());
-                        output.accept(Drinkitems.YOUMU.get());
                         output.accept(Drinkitems.YUYUKO.get());
                         output.accept(Drinkitems.KAGUYA.get());
                         output.accept(Drinkitems.FOURTEENTH_NIGHT.get());
                         output.accept(Drinkitems.KOMEIJI_KOISHI.get());
-
-
-                        output.accept(Drinkitems.NORDIC_MIST_TALK.get());
-                        output.accept(Drinkitems.NORDIC_LEGENDS.get());
-                        output.accept(Drinkitems.HEIMDALL_BREW.get());
 
                         output.accept(Drinkitems.ILLUSIONARY_NIGHT.get());
                         output.accept(Drinkitems.DREAM_OF_HUAXU.get());

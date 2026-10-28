@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_green"
+    }
+  ],
+  "result": {
+    "item": "fantasy_tavern:illusionary_night"
+  }
+}

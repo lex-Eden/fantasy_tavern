@@ -3,7 +3,7 @@
   "itemGroup.fantasy_tavern_tab_other": "秘封酒馆:其他",
   "item.fantasy_tavern.wheet_flour": "小麦粉",
   "item.fantasy_tavern.yeast": "酵母",
-  "item.fantasy_tavern.eden_box": "Eden的惊喜盲盒",
+  "item.fantasy_tavern.eden_box": "伊甸的惊喜盲盒",
 
   "item.fantasy_tavern.enchanted_berry": "附魔甜浆果",
   "item.fantasy_tavern.lucky_berry": "幸运甜浆果",
@@ -13,15 +13,9 @@
   "block.fantasy_tavern.komeiji_koishi": "古茗地恋",
   "block.fantasy_tavern.satsuki_rin": "风与花的旋律",
   "block.fantasy_tavern.sakuya": "十六夜",
-  "block.fantasy_tavern.youmu": "虚幻之樱",
   "block.fantasy_tavern.yuyuko": "樱葬",
   "block.fantasy_tavern.kaguya": "竹林月光",
-
   "block.fantasy_tavern.fourteenth_night": "十四夜",
-
-  "block.fantasy_tavern.nordic_mist_talk": "北欧物语",
-  "block.fantasy_tavern.nordic_legends": "北欧传说",
-  "block.fantasy_tavern.heimdall_brew": "海姆达尔之酿",
 
   "block.fantasy_tavern.illusionary_night": "幻视之夜",
   "block.fantasy_tavern.dream_of_huaxu": "华胥之梦",
@@ -45,6 +39,8 @@
 
   "effect.fantasy_tavern.wild_hungry": "反魂胃",
   "effect.fantasy_tavern.third_player": "第三自机",
+  "effect.fantasy_tavern.third_player_help": "第三自机",
+
 
   "item.fantasy_tavern.margaret.effect.empty": "玛格丽特",
   "item.fantasy_tavern.manhattan.effect.empty": "曼哈顿",

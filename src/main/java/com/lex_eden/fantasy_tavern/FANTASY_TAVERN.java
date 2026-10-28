@@ -61,9 +61,6 @@ public class FANTASY_TAVERN
             // 饮品
             event.accept(Drinkitems.ENCHANTED_BERRY_JUICE);
             event.accept(Drinkitems.KOMEIJI_KOISHI);
-            event.accept(Drinkitems.NORDIC_MIST_TALK);
-            event.accept(Drinkitems.NORDIC_LEGENDS);
-            event.accept(Drinkitems.HEIMDALL_BREW);
             event.accept(Drinkitems.THE_PUREST_SKY_AND_SEA);
             event.accept(Drinkitems.ILLUSIONARY_NIGHT);
             event.accept(Drinkitems.DREAM_OF_HUAXU);
@@ -79,7 +76,6 @@ public class FANTASY_TAVERN
             event.accept(Drinkitems.ENTRUST_THE_WORLD_TO_IDOLS);
             event.accept(Drinkitems.SATSUKI_RIN);
             event.accept(Drinkitems.SAKUYA);
-            event.accept(Drinkitems.YOUMU);
             event.accept(Drinkitems.YUYUKO);
             event.accept(Drinkitems.KAGUYA);
             event.accept(Drinkitems.FOURTEENTH_NIGHT);

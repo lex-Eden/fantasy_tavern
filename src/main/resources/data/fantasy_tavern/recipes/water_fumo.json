@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:golden_carrot"
+    },
+    "X": {
+      "item": "fantasy_tavern:lucky_berry"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "item": "fantasy_tavern:water_fumo"
+  },
+  "show_notification": true
+}

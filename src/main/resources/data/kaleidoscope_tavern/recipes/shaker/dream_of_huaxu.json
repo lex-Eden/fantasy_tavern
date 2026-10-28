@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_light_purple"
+    },
+    {
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_light_purple"
+    },
+    {
+      "item":"minecraft:amethyst_shard"
+    }
+  ],
+  "result": {
+    "item": "fantasy_tavern:dream_of_huaxu"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "item": "kaleidoscope_tavern:mystery_cocktail"
+    },
+    {
+      "item":"minecraft:carved_pumpkin"
+    },
+    {
+      "item":"minecraft:carved_pumpkin"
+    }
+  ],
+  "result": {
+    "item": "fantasy_tavern:the_lost_emotion"
+  }
+}

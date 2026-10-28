@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_red"
+    },
+    {
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_red"
+    },
+    {
+      "item":"minecraft:netherrack"
+    }
+  ],
+  "result": {
+    "item": "fantasy_tavern:bell_of_avici"
+  }
+}

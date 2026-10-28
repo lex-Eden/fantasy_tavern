@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "item": "fantasy_tavern:fourteenth_night"
+    },
+    {
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_blue"
+    },
+    {
+      "tag": "minecraft:cocktail_ingredient_white"
+    }
+  ],
+  "result": {
+    "item": "fantasy_tavern:komeiji_koishi"
+  }
+}

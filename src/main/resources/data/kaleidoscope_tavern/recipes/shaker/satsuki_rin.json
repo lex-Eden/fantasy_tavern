@@ -5,13 +5,13 @@
       "item": "kaleidoscope_tavern:polaris_sweet_white"
     },
     {
-      "item": "fantasy_tavern:nordic_mist_talk"
+      "item": "minecraft:oxeye_daisy"
     },
     {
-      "item": "fantasy_tavern:nordic_legends"
+      "tag": "kaleidoscope_tavern:cocktail_ingredient_gold"
     }
   ],
   "result": {
-    "item": "fantasy_tavern:heimdall_brew"
+    "item": "fantasy_tavern:satsuki_rin"
   }
 }
