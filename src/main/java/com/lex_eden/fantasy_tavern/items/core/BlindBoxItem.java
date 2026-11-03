@@ -1,4 +1,4 @@
-package com.lex_eden.fantasy_tavern.data;
+package com.lex_eden.fantasy_tavern.items.core;
 
 import com.lex_eden.fantasy_tavern.FANTASY_TAVERN;
 
@@ -17,9 +17,9 @@ import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 
 
-public class BlindBox extends Item {
+public class BlindBoxItem extends Item {
 
-    public BlindBox(Properties pProperties) {
+    public BlindBoxItem(Properties pProperties) {
         super(pProperties);
     }
     @SuppressWarnings("removal")

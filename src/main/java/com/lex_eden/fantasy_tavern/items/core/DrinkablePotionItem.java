@@ -1,4 +1,4 @@
-package com.lex_eden.fantasy_tavern.data;
+package com.lex_eden.fantasy_tavern.items.core;
 
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.network.chat.Component;

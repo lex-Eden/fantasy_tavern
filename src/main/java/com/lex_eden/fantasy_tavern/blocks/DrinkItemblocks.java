@@ -1,4 +1,4 @@
-package com.lex_eden.fantasy_tavern.data;
+package com.lex_eden.fantasy_tavern.blocks;
 
 import com.github.ysbbbbbb.kaleidoscopetavern.block.brew.DrinkBlock;
 import com.github.ysbbbbbb.kaleidoscopetavern.block.mixology.CocktailBlock;
@@ -27,6 +27,12 @@ public class DrinkItemblocks {
 
     public static final RegistryObject<Block> SAKUYA =
             BLOCKS.register("sakuya", CocktailBlock::new);
+
+    public static final RegistryObject<Block> TENSHI =
+            BLOCKS.register("tenshi", CocktailBlock::new);
+
+    public static final RegistryObject<Block> REMILIA =
+            BLOCKS.register("remilia", CocktailBlock::new);
 
     public static final RegistryObject<Block> KAGUYA = BLOCKS.register("kaguya", DrinkBlock.create().maxCount(4).shapes(
             Block.box(4, 0, 4, 12, 15, 12),

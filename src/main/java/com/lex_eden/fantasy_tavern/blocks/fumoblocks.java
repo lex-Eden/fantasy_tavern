@@ -1,6 +1,7 @@
-package com.lex_eden.fantasy_tavern.data;
+package com.lex_eden.fantasy_tavern.blocks;
 
 import com.lex_eden.fantasy_tavern.FANTASY_TAVERN;
+import com.lex_eden.fantasy_tavern.items.Drinkitems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;

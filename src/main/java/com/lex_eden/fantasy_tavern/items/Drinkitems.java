@@ -1,13 +1,14 @@
-package com.lex_eden.fantasy_tavern.data;
+package com.lex_eden.fantasy_tavern.items;
 
-import com.github.ysbbbbbb.kaleidoscopetavern.init.ModBlocks;
 import com.github.ysbbbbbb.kaleidoscopetavern.item.CocktailBlockItem;
 import com.github.ysbbbbbb.kaleidoscopetavern.item.DrinkBlockItem;
 import com.lex_eden.fantasy_tavern.FANTASY_TAVERN;
 
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.food.FoodProperties;
+import com.lex_eden.fantasy_tavern.blocks.DrinkItemblocks;
+import com.lex_eden.fantasy_tavern.data.SoundEvents;
+import com.lex_eden.fantasy_tavern.data.foods;
+import com.lex_eden.fantasy_tavern.items.core.BlindBoxItem;
+import com.lex_eden.fantasy_tavern.items.core.DrinkablePotionItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -32,7 +33,7 @@ public class Drinkitems {
     public static final RegistryObject<Item> WINE_GLASS=
             ITEMS.register("wine_glass",()-> new Item((new Item.Properties())));
     public static final RegistryObject<Item> EDEN_BOX=
-            ITEMS.register("eden_box",()-> new BlindBox((new Item.Properties())));
+            ITEMS.register("eden_box",()-> new BlindBoxItem((new Item.Properties())));
     // 物品注册-浆果
 
     // 基础食物注册
@@ -93,6 +94,12 @@ public class Drinkitems {
     //十六夜
     public static final RegistryObject<Item> SAKUYA =
             ITEMS.register("sakuya",()-> new CocktailBlockItem(DrinkItemblocks.SAKUYA.get()));
+    //天子
+    public static final RegistryObject<Item> TENSHI =
+            ITEMS.register("tenshi",()-> new CocktailBlockItem(DrinkItemblocks.TENSHI.get()));
+    //蕾米莉亚
+    public static final RegistryObject<Item> REMILIA =
+            ITEMS.register("remilia",()-> new CocktailBlockItem(DrinkItemblocks.REMILIA.get()));
 
     //十四夜
     public static final RegistryObject<Item> FOURTEENTH_NIGHT =

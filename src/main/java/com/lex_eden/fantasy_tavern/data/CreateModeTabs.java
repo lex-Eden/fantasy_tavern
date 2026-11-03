@@ -1,7 +1,9 @@
 package com.lex_eden.fantasy_tavern.data;
 
 
+import com.lex_eden.fantasy_tavern.blocks.fumoblocks;
 import com.lex_eden.fantasy_tavern.FANTASY_TAVERN;
+import com.lex_eden.fantasy_tavern.items.Drinkitems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -32,6 +34,7 @@ public class CreateModeTabs {
                         output.accept(Drinkitems.KAGUYA.get());
                         output.accept(Drinkitems.FOURTEENTH_NIGHT.get());
                         output.accept(Drinkitems.KOMEIJI_KOISHI.get());
+                        output.accept(Drinkitems.REMILIA.get());
 
                         output.accept(Drinkitems.ILLUSIONARY_NIGHT.get());
                         output.accept(Drinkitems.DREAM_OF_HUAXU.get());

@@ -1,7 +1,10 @@
 package com.lex_eden.fantasy_tavern;
 
+import com.lex_eden.fantasy_tavern.blocks.DrinkItemblocks;
+import com.lex_eden.fantasy_tavern.blocks.fumoblocks;
 import com.lex_eden.fantasy_tavern.data.*;
 import com.lex_eden.fantasy_tavern.effect.ModEffects;
+import com.lex_eden.fantasy_tavern.items.Drinkitems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
@@ -79,6 +82,7 @@ public class FANTASY_TAVERN
             event.accept(Drinkitems.YUYUKO);
             event.accept(Drinkitems.KAGUYA);
             event.accept(Drinkitems.FOURTEENTH_NIGHT);
+            event.accept(Drinkitems.REMILIA);
         }
         {
             if (event.getTabKey() == CreateModeTabs.FANTASY_TAVERN_TAB_OTHER.getKey()){
