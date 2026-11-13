@@ -7,17 +7,13 @@
   "item.fantasy_tavern.": "空白星图",
   "item.fantasy_tavern.": "星图",
   "item.fantasy_tavern.": "格林尼治的天文望远镜",
-  "item.fantasy_tavern.": "宇佐见莲子的帽子",
-
-
-  "item.fantasy_tavern.": "玛艾露贝莉·赫恩的帽子",
 
   "item.fantasy_tavern.wheet_flour": "小麦粉",
   "item.fantasy_tavern.yeast": "酵母",
   "item.fantasy_tavern.eden_box": "伊甸的惊喜盲盒",
 
-  "block.fantasy_tavern.": "星辉",
-  "block.fantasy_tavern.": "终末星辉",
+  "item.fantasy_tavern.": "宇佐见莲子的帽子",
+  "item.fantasy_tavern.": "玛艾露贝莉·赫恩的帽子",
 
   "item.fantasy_tavern.enchanted_berry": "附魔甜浆果",
   "item.fantasy_tavern.lucky_berry": "幸运甜浆果",
@@ -28,9 +24,9 @@
   "block.fantasy_tavern.komeiji_koishi": "古茗地恋",
   "block.fantasy_tavern.remilia": "鲜红的幼月",
   "block.fantasy_tavern.tenshi": "有顶天",
+  "block.fantasy_tavern.sakuya": "十六夜",
 
   "block.fantasy_tavern.kaguya": "竹林月光",
-  "block.fantasy_tavern.sakuya": "十六夜",
   "block.fantasy_tavern.yuyuko": "樱葬",
 
   "block.fantasy_tavern.fourteenth_night": "十四夜",
@@ -48,6 +44,9 @@
   "block.fantasy_tavern.mugen_noh": "梦幻能",
   "block.fantasy_tavern.entrust_the_world_to_idols": "寄世界于偶像",
 
+  "block.fantasy_tavern.": "星辉",
+  "block.fantasy_tavern.": "终末星辉",
+
   "block.fantasy_tavern.sara_eden_fumo": "fumo(Sara_Eden)",
   "block.fantasy_tavern.lex_eden_fumo": "fumo(Lex_Eden)",
   "block.fantasy_tavern.tirez_eden_fumo": "fumo(Tirez_Eden)",
@@ -56,7 +55,9 @@
   "block.fantasy_tavern.water_fumo": "fumo(Secluded_Water)",
 
   "effect.fantasy_tavern.wild_hungry": "反魂胃",
-  "effect.fantasy_tavern.third_player": "第三自机",
+  "effect.fantasy_tavern.third_player": "风与花的祝福",
+  "effect.fantasy_tavern.scarlett": "吸血",
+
   "effect.fantasy_tavern.third_player_help": "风与花的祝福",
 
 
@@ -72,6 +73,6 @@
   "item.fantasy_tavern.music_dics_kid_festival": "正在播放“童祭　～ Innocent Treasures",
 
   "item.fantasy_tavern.music_boys_and_girls_of_the_age_of_science": "音乐唱片",
-  "item.fantasy_tavern.music_boys_and_girls_of_the_age_of_science.desc": "科学世纪的少年少女",
-  "item.fantasy_tavern.music_dics_boys_and_girls_of_the_age_of_science": "正在播放“科学世纪的少年少女"
+  "item.fantasy_tavern.music_boys_and_girls_of_the_age_of_science.desc": "The des Alies",
+  "item.fantasy_tavern.music_dics_boys_and_girls_of_the_age_of_science": "正在播放“The des Alies"
 }

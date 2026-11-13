@@ -1,9 +1,9 @@
 package com.lex_eden.fantasy_tavern.data;
 
 
-import com.lex_eden.fantasy_tavern.blocks.fumoblocks;
+import com.lex_eden.fantasy_tavern.blocks.Coreblocks;
 import com.lex_eden.fantasy_tavern.FANTASY_TAVERN;
-import com.lex_eden.fantasy_tavern.items.Drinkitems;
+import com.lex_eden.fantasy_tavern.items.Coreitems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,55 +18,55 @@ public class CreateModeTabs {
 
     public static final RegistryObject<CreativeModeTab> FANTASY_TAVERN_TAB =
             CREATIVE_MODE_TABS.register("fantasy_tavern_tab", () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(Drinkitems.ENCHANTED_BERRY.get()))
+                    .icon(() -> new ItemStack(Coreitems.ENCHANTED_BERRY.get()))
                     .title(Component.translatable("itemGroup.fantasy_tavern_tab"))
                     .displayItems((parameters, output) -> {
                         // 物品
 
-                        output.accept(Drinkitems.ENCHANTED_BERRY.get());
-                        output.accept(Drinkitems.LUCKY_BERRY.get());
+                        output.accept(Coreitems.ENCHANTED_BERRY.get());
+                        output.accept(Coreitems.LUCKY_BERRY.get());
                         // 鸡尾酒饮品
-                        output.accept(Drinkitems.ENCHANTED_BERRY_JUICE.get());
 
-                        output.accept(Drinkitems.SATSUKI_RIN.get());
-                        output.accept(Drinkitems.SAKUYA.get());
-                        output.accept(Drinkitems.YUYUKO.get());
-                        output.accept(Drinkitems.KAGUYA.get());
-                        output.accept(Drinkitems.FOURTEENTH_NIGHT.get());
-                        output.accept(Drinkitems.KOMEIJI_KOISHI.get());
-                        output.accept(Drinkitems.REMILIA.get());
+                        output.accept(Coreitems.SATSUKI_RIN.get());
+                        output.accept(Coreitems.SAKUYA.get());
+                        output.accept(Coreitems.YUYUKO.get());
+                        output.accept(Coreitems.KAGUYA.get());
+                        output.accept(Coreitems.FOURTEENTH_NIGHT.get());
+                        output.accept(Coreitems.KOMEIJI_KOISHI.get());
+                        output.accept(Coreitems.REMILIA.get());
+                        output.accept(Coreitems.TENSHI.get());
 
-                        output.accept(Drinkitems.ILLUSIONARY_NIGHT.get());
-                        output.accept(Drinkitems.DREAM_OF_HUAXU.get());
-                        output.accept(Drinkitems.THE_PUREST_SKY_AND_SEA.get());
-                        output.accept(Drinkitems.CELESTIAL_WIZARDR.get());
-                        output.accept(Drinkitems.BELL_OF_AVICI.get());
-                        output.accept(Drinkitems.EMOTIONAL_SKYSCRAPER.get());
-                        output.accept(Drinkitems.WIND_OF_AGARTHA.get());
-                        output.accept(Drinkitems.THE_SEA_THAT_REFLECTS_ONE_S_HOME_PLANET.get());
-                        output.accept(Drinkitems.THE_LOST_EMOTION.get());
-                        output.accept(Drinkitems.ILLUSIONARY_WHITE_TRAVELER.get());
-                        output.accept(Drinkitems.MUGEN_NOH.get());
-                        output.accept(Drinkitems.ENTRUST_THE_WORLD_TO_IDOLS.get());
+                        output.accept(Coreitems.ILLUSIONARY_NIGHT.get());
+                        output.accept(Coreitems.DREAM_OF_HUAXU.get());
+                        output.accept(Coreitems.THE_PUREST_SKY_AND_SEA.get());
+                        output.accept(Coreitems.CELESTIAL_WIZARDR.get());
+                        output.accept(Coreitems.BELL_OF_AVICI.get());
+                        output.accept(Coreitems.EMOTIONAL_SKYSCRAPER.get());
+                        output.accept(Coreitems.WIND_OF_AGARTHA.get());
+                        output.accept(Coreitems.THE_SEA_THAT_REFLECTS_ONE_S_HOME_PLANET.get());
+                        output.accept(Coreitems.THE_LOST_EMOTION.get());
+                        output.accept(Coreitems.ILLUSIONARY_WHITE_TRAVELER.get());
+                        output.accept(Coreitems.MUGEN_NOH.get());
+                        output.accept(Coreitems.ENTRUST_THE_WORLD_TO_IDOLS.get());
                     })
                     .build());
 
     public static final RegistryObject<CreativeModeTab> FANTASY_TAVERN_TAB_OTHER =
             CREATIVE_MODE_TABS.register("fantasy_tavern_tab_other", () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(Drinkitems.EDEN_BOX.get()))
+                    .icon(() -> new ItemStack(Coreitems.EDEN_BOX.get()))
                     .title(Component.translatable("itemGroup.fantasy_tavern_tab_other"))
                     .displayItems((parameters, output) -> {
                         //唱片
-                        output.accept(Drinkitems.MUSIC_KID_FESTIVAL.get());
-                        output.accept(Drinkitems.MUSIC_BOYS_AND_GIRLS_OF_THE_AGE_OF_SCIENCE.get());
+                        output.accept(Coreitems.MUSIC_KID_FESTIVAL.get());
+                        output.accept(Coreitems.MUSIC_BOYS_AND_GIRLS_OF_THE_AGE_OF_SCIENCE.get());
                         //玩偶
-                        output.accept(fumoblocks.HYSLER_FUMO.get());
-                        output.accept(fumoblocks.HANA_FUMO.get());
-                        output.accept(fumoblocks.WATER_FUMO.get());
-                        output.accept(fumoblocks.LEX_EDEN_FUMO.get());
-                        output.accept(fumoblocks.TIREZ_EDEN_FUMO.get());
-                        output.accept(fumoblocks.SARA_EDEN_FUMO.get());
-                        output.accept(Drinkitems.EDEN_BOX.get());
+                        output.accept(Coreblocks.HYSLER_FUMO.get());
+                        output.accept(Coreblocks.HANA_FUMO.get());
+                        output.accept(Coreblocks.WATER_FUMO.get());
+                        output.accept(Coreblocks.LEX_EDEN_FUMO.get());
+                        output.accept(Coreblocks.TIREZ_EDEN_FUMO.get());
+                        output.accept(Coreblocks.SARA_EDEN_FUMO.get());
+                        output.accept(Coreitems.EDEN_BOX.get());
 
                     })
                     .build());

@@ -23,6 +23,8 @@ public class ModEffects {
     public static final RegistryObject<MobEffect> THIRD_PLAYER_HELP =
             MOB_EFFECTS.register("third_player_help",()-> new ThridPlayerHelp(MobEffectCategory.BENEFICIAL,0xFCA8B8));
 
+    public static final RegistryObject<MobEffect> SCARLETT=
+            MOB_EFFECTS.register("scarlett",()->new Scarlett(MobEffectCategory.BENEFICIAL,0xFCA8B8));
 
 
 

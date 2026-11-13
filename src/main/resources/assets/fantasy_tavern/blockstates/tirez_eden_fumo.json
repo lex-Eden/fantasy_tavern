@@ -1,5 +1,19 @@
 {
   "variants": {
-    "": { "model": "fantasy_tavern:block/tirez_eden_fumo" }
+    "facing=east": {
+      "model": "fantasy_tavern:block/tirez_eden_fumo",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "fantasy_tavern:block/tirez_eden_fumo"
+    },
+    "facing=south": {
+      "model": "fantasy_tavern:block/tirez_eden_fumo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fantasy_tavern:block/tirez_eden_fumo",
+      "y": 270
+    }
   }
 }

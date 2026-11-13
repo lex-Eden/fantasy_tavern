@@ -1,10 +1,10 @@
 package com.lex_eden.fantasy_tavern;
 
 import com.lex_eden.fantasy_tavern.blocks.DrinkItemblocks;
-import com.lex_eden.fantasy_tavern.blocks.fumoblocks;
+import com.lex_eden.fantasy_tavern.blocks.Coreblocks;
 import com.lex_eden.fantasy_tavern.data.*;
 import com.lex_eden.fantasy_tavern.effect.ModEffects;
-import com.lex_eden.fantasy_tavern.items.Drinkitems;
+import com.lex_eden.fantasy_tavern.items.Coreitems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
@@ -32,11 +32,11 @@ public class FANTASY_TAVERN
     {
         IEventBus modEventBus = context.getModEventBus();
         modEventBus.addListener(this::commonSetup);
-        Drinkitems.register(modEventBus);
+        Coreitems.register(modEventBus);
         CreateModeTabs.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
         DrinkItemblocks.register(modEventBus);
-        fumoblocks.register(modEventBus);
+        Coreblocks.register(modEventBus);
         SoundEvents.register(modEventBus);
         ModEffects.register(modEventBus);
         modEventBus.addListener(this::addCreative);
@@ -59,44 +59,44 @@ public class FANTASY_TAVERN
     {
         if (event.getTabKey() == CreateModeTabs.FANTASY_TAVERN_TAB.getKey()){
             // 物品
-            event.accept(Drinkitems.ENCHANTED_BERRY);
-            event.accept(Drinkitems.LUCKY_BERRY);
+            event.accept(Coreitems.ENCHANTED_BERRY);
+            event.accept(Coreitems.LUCKY_BERRY);
             // 饮品
-            event.accept(Drinkitems.ENCHANTED_BERRY_JUICE);
-            event.accept(Drinkitems.KOMEIJI_KOISHI);
-            event.accept(Drinkitems.THE_PUREST_SKY_AND_SEA);
-            event.accept(Drinkitems.ILLUSIONARY_NIGHT);
-            event.accept(Drinkitems.DREAM_OF_HUAXU);
-            event.accept(Drinkitems.THE_PUREST_SKY_AND_SEA);
-            event.accept(Drinkitems.CELESTIAL_WIZARDR);
-            event.accept(Drinkitems.BELL_OF_AVICI);
-            event.accept(Drinkitems.EMOTIONAL_SKYSCRAPER);
-            event.accept(Drinkitems.WIND_OF_AGARTHA);
-            event.accept(Drinkitems.THE_SEA_THAT_REFLECTS_ONE_S_HOME_PLANET);
-            event.accept(Drinkitems.THE_LOST_EMOTION);
-            event.accept(Drinkitems.ILLUSIONARY_WHITE_TRAVELER);
-            event.accept(Drinkitems.MUGEN_NOH);
-            event.accept(Drinkitems.ENTRUST_THE_WORLD_TO_IDOLS);
-            event.accept(Drinkitems.SATSUKI_RIN);
-            event.accept(Drinkitems.SAKUYA);
-            event.accept(Drinkitems.YUYUKO);
-            event.accept(Drinkitems.KAGUYA);
-            event.accept(Drinkitems.FOURTEENTH_NIGHT);
-            event.accept(Drinkitems.REMILIA);
+            event.accept(Coreitems.KOMEIJI_KOISHI);
+            event.accept(Coreitems.THE_PUREST_SKY_AND_SEA);
+            event.accept(Coreitems.ILLUSIONARY_NIGHT);
+            event.accept(Coreitems.DREAM_OF_HUAXU);
+            event.accept(Coreitems.THE_PUREST_SKY_AND_SEA);
+            event.accept(Coreitems.CELESTIAL_WIZARDR);
+            event.accept(Coreitems.BELL_OF_AVICI);
+            event.accept(Coreitems.EMOTIONAL_SKYSCRAPER);
+            event.accept(Coreitems.WIND_OF_AGARTHA);
+            event.accept(Coreitems.THE_SEA_THAT_REFLECTS_ONE_S_HOME_PLANET);
+            event.accept(Coreitems.THE_LOST_EMOTION);
+            event.accept(Coreitems.ILLUSIONARY_WHITE_TRAVELER);
+            event.accept(Coreitems.MUGEN_NOH);
+            event.accept(Coreitems.ENTRUST_THE_WORLD_TO_IDOLS);
+            event.accept(Coreitems.SATSUKI_RIN);
+            event.accept(Coreitems.SAKUYA);
+            event.accept(Coreitems.YUYUKO);
+            event.accept(Coreitems.KAGUYA);
+            event.accept(Coreitems.FOURTEENTH_NIGHT);
+            event.accept(Coreitems.REMILIA);
+            event.accept(Coreitems.TENSHI);
         }
         {
             if (event.getTabKey() == CreateModeTabs.FANTASY_TAVERN_TAB_OTHER.getKey()){
                 // 唱片
-                event.accept(Drinkitems.MUSIC_KID_FESTIVAL);
-                event.accept(Drinkitems.MUSIC_BOYS_AND_GIRLS_OF_THE_AGE_OF_SCIENCE);
+                event.accept(Coreitems.MUSIC_KID_FESTIVAL);
+                event.accept(Coreitems.MUSIC_BOYS_AND_GIRLS_OF_THE_AGE_OF_SCIENCE);
                 // fumo
-                event.accept(fumoblocks.SARA_EDEN_FUMO);
-                event.accept(fumoblocks.LEX_EDEN_FUMO);
-                event.accept(fumoblocks.TIREZ_EDEN_FUMO);
-                event.accept(fumoblocks.HYSLER_FUMO);
-                event.accept(fumoblocks.HANA_FUMO);
-                event.accept(fumoblocks.WATER_FUMO);
-                event.accept(Drinkitems.EDEN_BOX);
+                event.accept(Coreblocks.SARA_EDEN_FUMO);
+                event.accept(Coreblocks.LEX_EDEN_FUMO);
+                event.accept(Coreblocks.TIREZ_EDEN_FUMO);
+                event.accept(Coreblocks.HYSLER_FUMO);
+                event.accept(Coreblocks.HANA_FUMO);
+                event.accept(Coreblocks.WATER_FUMO);
+                event.accept(Coreitems.EDEN_BOX);
             }
         }
     }
